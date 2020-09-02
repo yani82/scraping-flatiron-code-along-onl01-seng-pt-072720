@@ -1,6 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
+#require 'pry'
  
 require_relative './course.rb'
  
@@ -31,5 +31,5 @@ end
  
 Scraper.new.get_page
 
- binding.pry
+#binding.pry
 
